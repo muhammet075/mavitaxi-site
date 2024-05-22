@@ -1,0 +1,261 @@
+.afspraak{
+    background: -webkit-linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
+    width: 100%;
+    color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 50px;
+}
+
+.afspraak h1{
+    margin-bottom: 10px;
+}
+
+.afspraak > div{
+    max-width: 1250px;
+    margin: auto;
+}
+
+.afspraak h2{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.afspraak input[type=text], .afspraak input[type=date], .afspraak select{
+    padding: 10px;
+    width: 550px;
+    border-radius: 4px;
+    border: 2px solid #ba9037;
+    margin-right: 50px;
+    font-family: system-ui, -apple-system;
+    -webkit-appearance: none;
+    position: relative;
+    color: #000;
+    cursor: pointer;
+}
+
+.afspraak input[type=text]::placeholder{
+    color: #000;
+}
+
+.afspraak select{
+    width: 574px;
+}
+
+.afspraak input[type=number]:first-child{
+    margin-left: 0;
+}
+
+
+.afspraak > div > section:nth-of-type(1){
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.afspraak > div > section:nth-of-type(1) div{
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.afspraak > div:nth-of-type(1) section:nth-of-type(2){
+    padding-bottom: 75px;
+    border-top: 0;
+    border-bottom: 2px;
+    border-style: solid;
+    border-image: linear-gradient( to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C ) 100% 0 100% 0;
+}
+
+.afspraak > div > section:nth-of-type(2) section{
+    display: flex;
+    align-items: center;
+}
+
+
+.afspraak > div > section:nth-of-type(2) section div input{
+    width: 350px;
+}
+
+.afspraak > div > section:nth-of-type(2) section div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.afspraak > div > section:nth-of-type(2) section div p:last-child{
+    position: absolute;
+    bottom: -40px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.afspraak > div:nth-of-type(2) div{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.afspraak > div:nth-of-type(2) div section{
+    text-align: center;
+    position: relative;
+    width: 200px;
+    height: 230px;
+    padding: 10px;
+    background: #373737;
+    border-bottom: 2px;
+    border-style: solid;
+    border-image: linear-gradient( to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C ) 100% 0 100% 0;
+}
+
+.afspraak > div:nth-of-type(2) div section img{
+    width: auto;
+    height: 75px;
+    margin: 10px 0;
+}
+
+.afspraak > div:nth-of-type(2) div section p:nth-of-type(1){
+    border-bottom: 1px solid #797979;
+    padding-bottom: 15px;
+}
+
+.afspraak > div:nth-of-type(2) div section p:nth-of-type(2){   
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.6em;
+    margin-top: 10px;
+}
+
+.afspraak > div:nth-of-type(2) div section p:nth-of-type(3){
+    margin-top: 12px;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #119de4 ;
+}
+
+
+.afspraak > div:nth-of-type(2) div section button{
+    position: absolute;
+    bottom: -50px;
+    width: 60%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #0077b4;
+    color: #ffff;
+    border: none;
+    padding: 9px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: system-ui, -apple-system;
+}
+
+.afspraak > div:nth-of-type(2) div section button:hover{
+    background: #35a8e3;
+    transition: 0.3s;
+}
+
+
+.afspraak > div:nth-of-type(2) > p{
+    margin: 15px 0;
+}
+
+.afspraak > div:nth-of-type(2) > img{
+    width: 50%;
+    height: auto;
+    margin: 75px 0;
+}
+
+@media only screen and (max-width: 1275px) {
+    .afspraak > div{
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .afspraak > div:nth-of-type(2) div{
+        width: 100%;
+    }
+
+    .afspraak > div:nth-of-type(2) > img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .afspraak > div:nth-of-type(2) div section{
+        width: 130px;
+        height: 210px;
+    }
+
+    .afspraak > div:nth-of-type(2) div section img{
+        height: 55px;
+    }
+
+    .afspraak > div:nth-of-type(2) div section p:nth-of-type(1){
+        font-size: 0.5em;
+        margin-top: 10px;
+    }
+
+    .afspraak > div:nth-of-type(2) div section button{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .afspraak input[type=text], .afspraak input[type=date], .afspraak select{
+        width: 75vw;
+    }
+
+    .afspraak > div:nth-of-type(2) > img{
+        margin-top: 50px;
+    }
+
+    .afspraak > div > section:nth-of-type(2) section div input{
+        width: 200px;
+        margin-right: 25px;
+    }    
+}
+
+@media only screen and (max-width: 520px) {
+    .afspraak > div:nth-of-type(2) div section{
+        width: 30%;
+        height: 190px;
+        padding: 15px 0;
+    }
+
+    .afspraak > div:nth-of-type(2) div section img{
+        height: 40px;
+    }
+
+    .afspraak h2{
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+
+    .afspraak > div:nth-of-type(2) div section p:nth-of-type(3){
+        font-size: 1em;
+    }
+    
+    .afspraak > div > section:nth-of-type(2) section div input{
+        width: 120px;
+        text-align: initial;
+    }
+}

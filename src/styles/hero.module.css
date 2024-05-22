@@ -1,0 +1,238 @@
+
+.hero{
+    background: -webkit-linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hero > div:nth-of-type(1) > div{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.hero > div:nth-of-type(1) > div section{
+    position: absolute;
+    top: 120px;
+    right: 10%;
+    color: #ffff;
+}
+
+.hero > div:nth-of-type(1) > div section h1{
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.hero > div:nth-of-type(1) > div section span{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.hero > div:nth-of-type(1) > div section span img{
+    width: 25px;
+    height: auto;
+    position: absolute;
+    left: -35px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.hero > div:nth-of-type(1) > div section span h2{
+    font-size: 2.5em;
+    background: none;
+    color: #ffff;
+}
+
+.hero > div:nth-of-type(1) > div section a{
+    margin-top: 30px;
+    display: block;
+    position: relative;
+    background: linear-gradient(to right, #b17c0b, #ddc060, #ddc05f, #ddc060, #b17c0b);
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px 0;
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    cursor: pointer;
+}
+
+.hero > div:nth-of-type(1) > div section a:hover{ 
+    transition: 0.3s;
+    transform: scale(1.04);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.hero > div:nth-of-type(1) > div section a img{
+    position: absolute;
+    height: 30px;
+    width: auto;
+    transform: scaleX(-1);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 20px;
+}
+
+.hero > div:nth-of-type(2) > div{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+    height: 300px;
+}
+
+.hero > div:nth-of-type(2) > div section:nth-of-type(1) img{
+    position: absolute;
+    top: -250px;
+    width: 650px;
+    height: auto;
+    left: 0;
+}
+
+.hero > div:nth-of-type(2) > div section:nth-of-type(2){
+    padding: 1rem 2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    color: #ffff;
+    border-top: 2px;
+    border-bottom: 2px; 
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C
+      ) 100% 0 100% 0;
+}
+
+.hero > div:nth-of-type(2) > div section:nth-of-type(2) h3{
+    font-weight: 400;
+}
+
+.hero > div:nth-of-type(2) > div section:nth-of-type(2) img{
+    height: 25px;
+    width: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 1215px) {
+    .hero > div:nth-of-type(1) > div,.hero > div:nth-of-type(2) > div{
+        padding: 0 15px;
+    }   
+    .hero > div:nth-of-type(2) > div section:nth-of-type(2){
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .hero > div:nth-of-type(2) > div section:nth-of-type(1) img{
+        width: 500px;
+        top: -200px
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .hero > div:nth-of-type(1) > div section span h2{
+        font-size: 2.2em;
+    }
+    
+    .hero > div:nth-of-type(1) > div section a{
+        width: 200px;
+        padding: 10px 0;
+        font-size: 1.3em;
+        margin: 30px auto;
+    }
+
+    .hero > div:nth-of-type(1) > div section a img{
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hero > div:nth-of-type(2) > div section:nth-of-type(1) img{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .hero > div:nth-of-type(1) > div section{
+        top: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    .hero > div:nth-of-type(2) > div section:nth-of-type(1) img{
+        width: 70%;
+        top: -65px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .hero > div:nth-of-type(2) > div{
+        height: 400px;
+    }
+
+    .hero > div:nth-of-type(2) > div section:nth-of-type(2) img{
+        width: 20px;
+    }
+
+    .hero > div:nth-of-type(2) > div section:nth-of-type(2) h3{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .hero > div:nth-of-type(2) > div section:nth-of-type(1) img{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero> div:nth-of-type(1) > div section h1{
+        font-size: 0.8em;
+    }
+
+    .hero > div:nth-of-type(1) > div section span h2{
+        font-size: 1.8em;
+    }
+
+    .hero > div:nth-of-type(1) > div section span img{
+        width: 20px;
+        left: -30px;
+    }
+
+    .hero > div:nth-of-type(1) > div section a img{
+        right: 10px;
+    }
+
+    .hero > div:nth-of-type(2) > div section:nth-of-type(2){
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        text-align: center;
+        padding: 20px 0;
+        gap: 20px;
+        bottom: 0;
+    }
+}

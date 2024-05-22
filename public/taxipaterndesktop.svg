@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4896 204">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_1);
+      }
+
+      .cls-2 {
+        fill: url(#_1-7);
+      }
+
+      .cls-3 {
+        fill: url(#_1-8);
+      }
+
+      .cls-4 {
+        fill: url(#_1-6);
+      }
+
+      .cls-5 {
+        fill: url(#_1-5);
+      }
+
+      .cls-6 {
+        fill: url(#_1-2);
+      }
+
+      .cls-7 {
+        fill: url(#_1-4);
+      }
+
+      .cls-8 {
+        fill: url(#_1-3);
+      }
+
+      .cls-9 {
+        fill: url(#_1-9);
+      }
+
+      .cls-10 {
+        fill: url(#_1-39);
+      }
+
+      .cls-11 {
+        fill: url(#_1-36);
+      }
+
+      .cls-12 {
+        fill: url(#_1-38);
+      }
+
+      .cls-13 {
+        fill: url(#_1-30);
+      }
+
+      .cls-14 {
+        fill: url(#_1-31);
+      }
+
+      .cls-15 {
+        fill: url(#_1-37);
+      }
+
+      .cls-16 {
+        fill: url(#_1-34);
+      }
+
+      .cls-17 {
+        fill: url(#_1-35);
+      }
+
+      .cls-18 {
+        fill: url(#_1-32);
+      }
+
+      .cls-19 {
+        fill: url(#_1-33);
+      }
+
+      .cls-20 {
+        fill: url(#_1-46);
+      }
+
+      .cls-21 {
+        fill: url(#_1-48);
+      }
+
+      .cls-22 {
+        fill: url(#_1-47);
+      }
+
+      .cls-23 {
+        fill: url(#_1-22);
+      }
+
+      .cls-24 {
+        fill: url(#_1-21);
+      }
+
+      .cls-25 {
+        fill: url(#_1-23);
+      }
+
+      .cls-26 {
+        fill: url(#_1-24);
+      }
+
+      .cls-27 {
+        fill: url(#_1-26);
+      }
+
+      .cls-28 {
+        fill: url(#_1-27);
+      }
+
+      .cls-29 {
+        fill: url(#_1-28);
+      }
+
+      .cls-30 {
+        fill: url(#_1-29);
+      }
+
+      .cls-31 {
+        fill: url(#_1-25);
+      }
+
+      .cls-32 {
+        fill: url(#_1-20);
+      }
+
+      .cls-33 {
+        fill: url(#_1-42);
+      }
+
+      .cls-34 {
+        fill: url(#_1-44);
+      }
+
+      .cls-35 {
+        fill: url(#_1-43);
+      }
+
+      .cls-36 {
+        fill: url(#_1-41);
+      }
+
+      .cls-37 {
+        fill: url(#_1-45);
+      }
+
+      .cls-38 {
+        fill: url(#_1-40);
+      }
+
+      .cls-39 {
+        fill: url(#_1-13);
+      }
+
+      .cls-40 {
+        fill: url(#_1-10);
+      }
+
+      .cls-41 {
+        fill: url(#_1-11);
+      }
+
+      .cls-42 {
+        fill: url(#_1-16);
+      }
+
+      .cls-43 {
+        fill: url(#_1-17);
+      }
+
+      .cls-44 {
+        fill: url(#_1-14);
+      }
+
+      .cls-45 {
+        fill: url(#_1-15);
+      }
+
+      .cls-46 {
+        fill: url(#_1-12);
+      }
+
+      .cls-47 {
+        fill: url(#_1-18);
+      }
+
+      .cls-48 {
+        fill: url(#_1-19);
+      }
+    </style>
+    <linearGradient id="_1" data-name="1" x1="102" y1="51" x2="204" y2="51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eece5c"/>
+      <stop offset=".02" stop-color="#e9c858"/>
+      <stop offset=".1" stop-color="#d0a944"/>
+      <stop offset=".18" stop-color="#be9335"/>
+      <stop offset=".26" stop-color="#b3852c"/>
+      <stop offset=".33" stop-color="#b0812a"/>
+      <stop offset=".44" stop-color="#bb9037"/>
+      <stop offset=".66" stop-color="#d8b95a"/>
+      <stop offset=".71" stop-color="#e0c564"/>
+      <stop offset=".76" stop-color="#ddc05e"/>
+      <stop offset=".83" stop-color="#d4b34e"/>
+      <stop offset=".91" stop-color="#c69d33"/>
+      <stop offset=".99" stop-color="#b37e0e"/>
+      <stop offset="1" stop-color="#b07908"/>
+    </linearGradient>
+    <linearGradient id="_1-2" data-name="1" x1="0" y1="153" x2="102" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-3" data-name="1" x1="306" x2="408" xlink:href="#_1"/>
+    <linearGradient id="_1-4" data-name="1" x1="204" y1="153" x2="306" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-5" data-name="1" x1="510" x2="612" xlink:href="#_1"/>
+    <linearGradient id="_1-6" data-name="1" x1="408" y1="153" x2="510" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-7" data-name="1" x1="714" x2="816" xlink:href="#_1"/>
+    <linearGradient id="_1-8" data-name="1" x1="612" y1="153" x2="714" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-9" data-name="1" x1="918" x2="1020" xlink:href="#_1"/>
+    <linearGradient id="_1-10" data-name="1" x1="816" y1="153" x2="918" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-11" data-name="1" x1="1122" x2="1224" xlink:href="#_1"/>
+    <linearGradient id="_1-12" data-name="1" x1="1020" y1="153" x2="1122" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-13" data-name="1" x1="1326" x2="1428" xlink:href="#_1"/>
+    <linearGradient id="_1-14" data-name="1" x1="1224" y1="153" x2="1326" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-15" data-name="1" x1="1530" x2="1632" xlink:href="#_1"/>
+    <linearGradient id="_1-16" data-name="1" x1="1428" y1="153" x2="1530" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-17" data-name="1" x1="1734" x2="1836" xlink:href="#_1"/>
+    <linearGradient id="_1-18" data-name="1" x1="1632" y1="153" x2="1734" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-19" data-name="1" x1="1938" x2="2040" xlink:href="#_1"/>
+    <linearGradient id="_1-20" data-name="1" x1="1836" y1="153" x2="1938" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-21" data-name="1" x1="2142" x2="2244" xlink:href="#_1"/>
+    <linearGradient id="_1-22" data-name="1" x1="2040" y1="153" x2="2142" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-23" data-name="1" x1="2346" x2="2448" xlink:href="#_1"/>
+    <linearGradient id="_1-24" data-name="1" x1="2244" y1="153" x2="2346" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-25" data-name="1" x1="2550" x2="2652" xlink:href="#_1"/>
+    <linearGradient id="_1-26" data-name="1" x1="2448" y1="153" x2="2550" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-27" data-name="1" x1="2754" x2="2856" xlink:href="#_1"/>
+    <linearGradient id="_1-28" data-name="1" x1="2652" y1="153" x2="2754" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-29" data-name="1" x1="2958" x2="3060" xlink:href="#_1"/>
+    <linearGradient id="_1-30" data-name="1" x1="2856" y1="153" x2="2958" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-31" data-name="1" x1="3162" x2="3264" xlink:href="#_1"/>
+    <linearGradient id="_1-32" data-name="1" x1="3060" y1="153" x2="3162" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-33" data-name="1" x1="3366" x2="3468" xlink:href="#_1"/>
+    <linearGradient id="_1-34" data-name="1" x1="3264" y1="153" x2="3366" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-35" data-name="1" x1="3570" x2="3672" xlink:href="#_1"/>
+    <linearGradient id="_1-36" data-name="1" x1="3468" y1="153" x2="3570" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-37" data-name="1" x1="3774" x2="3876" xlink:href="#_1"/>
+    <linearGradient id="_1-38" data-name="1" x1="3672" y1="153" x2="3774" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-39" data-name="1" x1="3978" x2="4080" xlink:href="#_1"/>
+    <linearGradient id="_1-40" data-name="1" x1="3876" y1="153" x2="3978" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-41" data-name="1" x1="4182" x2="4284" xlink:href="#_1"/>
+    <linearGradient id="_1-42" data-name="1" x1="4080" y1="153" x2="4182" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-43" data-name="1" x1="4386" x2="4488" xlink:href="#_1"/>
+    <linearGradient id="_1-44" data-name="1" x1="4284" y1="153" x2="4386" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-45" data-name="1" x1="4590" x2="4692" xlink:href="#_1"/>
+    <linearGradient id="_1-46" data-name="1" x1="4488" y1="153" x2="4590" y2="153" xlink:href="#_1"/>
+    <linearGradient id="_1-47" data-name="1" x1="4794" x2="4896" xlink:href="#_1"/>
+    <linearGradient id="_1-48" data-name="1" x1="4692" y1="153" x2="4794" y2="153" xlink:href="#_1"/>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect width="102" height="102"/>
+    <rect x="102" y="102" width="102" height="102"/>
+    <rect class="cls-1" x="102" y="0" width="102" height="102"/>
+    <rect class="cls-6" y="102" width="102" height="102"/>
+    <rect x="204" width="102" height="102"/>
+    <rect x="306" y="102" width="102" height="102"/>
+    <rect class="cls-8" x="306" y="0" width="102" height="102"/>
+    <rect class="cls-7" x="204" y="102" width="102" height="102"/>
+    <rect x="408" width="102" height="102"/>
+    <rect x="510" y="102" width="102" height="102"/>
+    <rect class="cls-5" x="510" y="0" width="102" height="102"/>
+    <rect class="cls-4" x="408" y="102" width="102" height="102"/>
+    <rect x="612" width="102" height="102"/>
+    <rect x="714" y="102" width="102" height="102"/>
+    <rect class="cls-2" x="714" y="0" width="102" height="102"/>
+    <rect class="cls-3" x="612" y="102" width="102" height="102"/>
+    <rect x="816" width="102" height="102"/>
+    <rect x="918" y="102" width="102" height="102"/>
+    <rect class="cls-9" x="918" y="0" width="102" height="102"/>
+    <rect class="cls-40" x="816" y="102" width="102" height="102"/>
+    <rect x="1020" width="102" height="102"/>
+    <rect x="1122" y="102" width="102" height="102"/>
+    <rect class="cls-41" x="1122" y="0" width="102" height="102"/>
+    <rect class="cls-46" x="1020" y="102" width="102" height="102"/>
+    <rect x="1224" width="102" height="102"/>
+    <rect x="1326" y="102" width="102" height="102"/>
+    <rect class="cls-39" x="1326" y="0" width="102" height="102"/>
+    <rect class="cls-44" x="1224" y="102" width="102" height="102"/>
+    <rect x="1428" width="102" height="102"/>
+    <rect x="1530" y="102" width="102" height="102"/>
+    <rect class="cls-45" x="1530" y="0" width="102" height="102"/>
+    <rect class="cls-42" x="1428" y="102" width="102" height="102"/>
+    <rect x="1632" width="102" height="102"/>
+    <rect x="1734" y="102" width="102" height="102"/>
+    <rect class="cls-43" x="1734" y="0" width="102" height="102"/>
+    <rect class="cls-47" x="1632" y="102" width="102" height="102"/>
+    <rect x="1836" width="102" height="102"/>
+    <rect x="1938" y="102" width="102" height="102"/>
+    <rect class="cls-48" x="1938" y="0" width="102" height="102"/>
+    <rect class="cls-32" x="1836" y="102" width="102" height="102"/>
+    <rect x="2040" width="102" height="102"/>
+    <rect x="2142" y="102" width="102" height="102"/>
+    <rect class="cls-24" x="2142" y="0" width="102" height="102"/>
+    <rect class="cls-23" x="2040" y="102" width="102" height="102"/>
+    <rect x="2244" width="102" height="102"/>
+    <rect x="2346" y="102" width="102" height="102"/>
+    <rect class="cls-25" x="2346" y="0" width="102" height="102"/>
+    <rect class="cls-26" x="2244" y="102" width="102" height="102"/>
+    <rect x="2448" width="102" height="102"/>
+    <rect x="2550" y="102" width="102" height="102"/>
+    <rect class="cls-31" x="2550" y="0" width="102" height="102"/>
+    <rect class="cls-27" x="2448" y="102" width="102" height="102"/>
+    <rect x="2652" width="102" height="102"/>
+    <rect x="2754" y="102" width="102" height="102"/>
+    <rect class="cls-28" x="2754" y="0" width="102" height="102"/>
+    <rect class="cls-29" x="2652" y="102" width="102" height="102"/>
+    <rect x="2856" width="102" height="102"/>
+    <rect x="2958" y="102" width="102" height="102"/>
+    <rect class="cls-30" x="2958" y="0" width="102" height="102"/>
+    <rect class="cls-13" x="2856" y="102" width="102" height="102"/>
+    <rect x="3060" width="102" height="102"/>
+    <rect x="3162" y="102" width="102" height="102"/>
+    <rect class="cls-14" x="3162" y="0" width="102" height="102"/>
+    <rect class="cls-18" x="3060" y="102" width="102" height="102"/>
+    <rect x="3264" width="102" height="102"/>
+    <rect x="3366" y="102" width="102" height="102"/>
+    <rect class="cls-19" x="3366" y="0" width="102" height="102"/>
+    <rect class="cls-16" x="3264" y="102" width="102" height="102"/>
+    <rect x="3468" width="102" height="102"/>
+    <rect x="3570" y="102" width="102" height="102"/>
+    <rect class="cls-17" x="3570" y="0" width="102" height="102"/>
+    <rect class="cls-11" x="3468" y="102" width="102" height="102"/>
+    <rect x="3672" width="102" height="102"/>
+    <rect x="3774" y="102" width="102" height="102"/>
+    <rect class="cls-15" x="3774" y="0" width="102" height="102"/>
+    <rect class="cls-12" x="3672" y="102" width="102" height="102"/>
+    <rect x="3876" width="102" height="102"/>
+    <rect x="3978" y="102" width="102" height="102"/>
+    <rect class="cls-10" x="3978" y="0" width="102" height="102"/>
+    <rect class="cls-38" x="3876" y="102" width="102" height="102"/>
+    <rect x="4080" width="102" height="102"/>
+    <rect x="4182" y="102" width="102" height="102"/>
+    <rect class="cls-36" x="4182" y="0" width="102" height="102"/>
+    <rect class="cls-33" x="4080" y="102" width="102" height="102"/>
+    <rect x="4284" width="102" height="102"/>
+    <rect x="4386" y="102" width="102" height="102"/>
+    <rect class="cls-35" x="4386" y="0" width="102" height="102"/>
+    <rect class="cls-34" x="4284" y="102" width="102" height="102"/>
+    <rect x="4488" width="102" height="102"/>
+    <rect x="4590" y="102" width="102" height="102"/>
+    <rect class="cls-37" x="4590" y="0" width="102" height="102"/>
+    <rect class="cls-20" x="4488" y="102" width="102" height="102"/>
+    <rect x="4692" width="102" height="102"/>
+    <rect x="4794" y="102" width="102" height="102"/>
+    <rect class="cls-22" x="4794" y="0" width="102" height="102"/>
+    <rect class="cls-21" x="4692" y="102" width="102" height="102"/>
+  </g>
+</svg>

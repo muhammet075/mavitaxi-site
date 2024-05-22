@@ -1,0 +1,147 @@
+.pricecalculator > div{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: relative;
+}
+
+.pricecalculator > div > img{
+    position: absolute;
+    width: 700px;
+    height: auto;
+    bottom: 0;
+}
+
+.pricecalculator > div section{
+    width: 60%;
+}
+
+.pricecalculator > div section h2{
+    margin-bottom: 20px; 
+    font-size: 1.8em;   
+    font-weight: 400;
+}
+
+.pricecalculator > div section p{
+    margin-bottom: 20px;
+}
+
+.pricecalculator > div section a{
+    margin-top: 30px;
+    display: block;
+    background: linear-gradient(to right, #b17c0b, #ddc060, #ddc05f, #ddc060, #b17c0b);
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    width: 280px;    
+    border-radius: 5px;
+    padding: 15px 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+.pricecalculator > div section a:hover{ 
+    transition: 0.3s;
+    transform: scale(1.04);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.pricecalculator > div section:nth-of-type(2){
+    background-color: #2a2a2a;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.pricecalculator > div section:nth-of-type(2) label{
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.pricecalculator > div section:nth-of-type(2) input[type=number]{
+    background-color: #fdfdfd;
+    font-size: 1.5em;
+    padding: 5px;
+    border: 2px solid #ceb061;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.pricecalculator > div section:nth-of-type(2) div{
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.pricecalculator > div section:nth-of-type(2) div p:first-child{
+    font-size: 0.8em;
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+
+.pricecalculator > div section:nth-of-type(2) div p:last-child{
+    font-size: 2.5em;
+    padding: 0 20px;
+}
+
+
+@media only screen and (max-width: 1215px) {
+    .pricecalculator > div{
+        padding: 0 15px;
+        padding-bottom: 100px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .pricecalculator > div{
+        flex-direction: column;
+    }
+
+    .pricecalculator > div section{
+        width: 100%;
+    }
+
+    .pricecalculator > div section:nth-of-type(2){
+        width: 100%;
+        height: 250px;
+        border-radius: 0;
+        margin-top: 50px;
+        box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    }
+
+
+    .pricecalculator > div > img{
+        width: 95%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .pricecalculator > div{
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .pricecalculator > div{
+        padding-bottom: 25px;
+    }
+}

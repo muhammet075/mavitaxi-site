@@ -1,0 +1,544 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-color: #ffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+
+.displaynone{
+  display: none !important;
+}
+
+.closelanguages{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.disabledbtn{
+  pointer-events: none !important;
+  cursor: no-drop !important;
+  background: #919191 !important;
+  color: #c0c0c0 !important;
+  cursor: no-drop !important;
+  background: #919191 !important;
+  color: #c0c0c0 !important;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.container h1{
+  font-size: 2.5em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.container h2{
+  margin-bottom: 5px;
+}
+
+.container p{
+  max-width: 800px;
+  margin-bottom: 25px;
+}
+
+.container a{
+  display: block;
+  background: linear-gradient(to right, #b17c0b, #ddc060, #ddc05f, #ddc060, #b17c0b);
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px 0;
+  box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+}
+
+.container a:hover {
+  transition: 0.3s;
+  transform: scale(1.04);
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+}
+
+.container section{
+  margin-bottom: 75px;
+}
+
+.container ul{
+  display: flex;
+  align-items: center;
+  max-width: 650px;
+  list-style: none;
+  margin-top: 50px;
+}
+
+.container ul li a{
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  height: 60px;
+}
+
+.container ul li img{
+  width: 25px;
+  height: auto;
+  margin-right: 5px;
+}
+
+#hamburgerbtn{
+  display: none;
+  left: 15px;
+  width: fit-content;
+  height: 35px;
+}
+
+#hamburgerclosebtn{
+  display: none;
+  position: absolute;
+  top: 25px;
+  height: 50px;
+  width: 50px;
+  background: none;
+  border: none;
+}
+
+#hamburgerclosebtn img{
+  margin-top: 3px;
+}
+
+#whatsappbtn{
+  position: fixed;
+  z-index: 999;
+  bottom: 15px;
+  right: 15px;
+}
+
+#whatsappbtn a{
+  background-color: #24d366;
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#whatsappbtn a:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 5px 0px, rgb(0 0 0 / 10%) 0px 0px 1px 0px;
+}
+
+#whatsappbtn a img{
+  height: 30px;
+  width: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.openhamburger{
+  animation: 1s forwards openhamburger;
+}
+
+.removehamburger {
+  animation: 1s forwards removehamburger
+}
+
+@keyframes openhamburger {
+  from {
+      left: 2000px;
+  }
+
+  to {
+      left: 0px;
+  }
+}
+
+@keyframes removehamburger {
+  from {
+      left: 0px;
+  }
+
+  to {
+      left: 2000px;
+  }
+}
+
+
+.rijgebieden h2{
+  font-size: 1.8em;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.rijgebieden > div{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: -40px;
+}
+
+.rijgebieden > div a{
+  background: #f0f0f0;
+}
+
+.rijgebieden > div a section{
+  margin: 0;
+  padding: 10px 0;
+  position: relative;
+}
+
+.rijgebieden > div a section img{
+  position: absolute;
+  transform: scaleX(-1);
+  width: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 10px;
+}
+
+.rijgebieden > div a section h3{
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.plaatspagina span{
+  display: flex;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.plaatspagina span h1{
+  margin-bottom: 0px;
+  margin-left: 30px;
+  font-weight: 400;
+}
+
+.plaatspagina span a{
+  background: none;
+  width: fit-content;
+  box-shadow: none;
+}
+
+.plaatspagina span a img{
+  position: absolute;
+  width: 15px;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.plaatspagina h2{
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.plaatsafspraak{
+  margin-top: -50px;
+}
+
+@media only screen and (max-width: 990px) {
+  .rijgebieden > div{
+    grid-template-columns: auto auto auto;  
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 715px) {
+  .rijgebieden > div{
+    grid-template-columns: auto auto;  
+    justify-content: space-evenly;
+  }
+
+  .rijgebieden h2{
+    text-align: center;
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .rijgebieden > div a{
+    width: 150px;
+    font-size: 0.7em;
+  }
+
+  .rijgebieden > div a section img{
+    width: 7px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .rijgebieden > div a{
+    width: 120px;
+    font-size: 0.6em;
+  }
+
+  .rijgebieden > div a section img{
+    width: 6px;
+  }
+}
+
+.swiper{
+  background: #ffff;
+  max-width: 1800px;
+  padding: 20px 0 40px 0 !important;
+}
+
+.swiper-slide{
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  color: #000 !important;
+  background: #d2b04ea6;
+  padding: 5px 20px;
+}
+
+.swiper-pagination-bullet-active{
+  background: #d2b04e !important;
+}
+
+@media only screen and (min-width: 1420px) {
+  .footerswiper img{
+    height: 300px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1420px) {
+  .footerswiper img{
+    height: 250px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1215px) {
+  .container{
+    padding: 0 15px;
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .footerswiper img{
+    height: 350px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .container ul{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container ul li a{
+    margin-bottom: 30px;
+  }
+
+  .afspraak ul li a{
+    width: 500px;
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .afspraak ul li a{
+    width: 400px;
+    font-size: 1.1em;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .afspraak ul li a{
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .afspraak ul li a{
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .afspraak ul li a{
+    width: 220px;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .footerswiper img{
+    height: 250px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  main{
+    margin-top: 190px;
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .footerswiper img{
+      height: 200px;
+      width: auto;
+    }
+  }
+
+  @media only screen and (max-width: 395px) {
+    .footerswiper img{
+      height: 150px;
+      width: auto;
+    }
+  }
+
+  @media only screen and (max-width: 290px) {
+    .footerswiper img{
+      height: 125px;
+      width: auto;
+    }
+  }
+
+  #hamburgerbtn, #hamburgerclosebtn{
+      display: block;
+  }
+}
+
+.afspraakbtn, .calculatebtn{
+  background: #0cc351;
+  border: none;
+  font-size: 1em;
+  padding: 15px 20px;
+  border-radius: 6px;
+  display: block;
+  margin-top: 25px;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  cursor: pointer;
+  width: 40%;
+}
+ 
+.resultul{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #ffff;
+  width: 500px;
+  position: absolute;
+  z-index: 999;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  top: 66px;
+  border-radius: 5px;
+  max-height: 100vh;
+}
+
+.resultlist{
+  background: none;
+  border: none;
+  padding: 10px 5px;
+  font-size: 1em;
+}
+
+.resultul li:nth-child(even){
+  background-color: #f1f1f1;
+}
+
+.resultul li button{
+  width: 100%;
+  text-align: initial;
+  cursor: pointer;
+}
+
+.resultul li:hover{
+  background-color: #DDC06F;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.offerte span{
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  margin: 25px auto;
+}
+
+.offerte span p{
+  margin: 0;
+}
+
+.vanarrowico{
+  position: absolute;
+  right: 0;
+  z-index: 9999;
+  width: 20px;
+  height: auto;
+  right: 60px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  touch-action: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .afspraakbtn, .calculatebtn{
+    width: 100%;
+  }
+
+  .ophaalplaats{
+    width: 80vw !important;
+}
+
+.resultul{
+  width: 90%;
+}
+
+}
+
+#geschatttetxt1, #geschatttetxt2{
+  font-size: 1.2em;
+}
+
+.ureninput, .minuteninput{
+  padding: 10px 0 10px 10px !important;
+  width: 65px !important;
+  margin: 0 5px !important;
+  border-radius: 3px !important;
+  border: 2px solid #ba9037 !important;
+}
