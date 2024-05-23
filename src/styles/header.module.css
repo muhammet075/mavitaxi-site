@@ -223,13 +223,13 @@
         left: 0;
         right: 0;
         margin: auto;
-        top: 63px;
+        top: 75px;
         height: 125px;
         width: auto;
     }
 
     .header > div:nth-of-type(2){
-        height: 45px;
+        height: 65px;
     }
 
     .header div:nth-of-type(2) > nav button{
