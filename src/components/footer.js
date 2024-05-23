@@ -44,13 +44,13 @@ export default function Foter() {
                             <li><Link href="/overons" id="footerlink3">Over ons</Link></li>
                             <li><Link href="/afspraak" id="footerlink5">Afspraak</Link></li>
                             <li><Link href="/privacybeleid">Privacybeleid</Link></li>
-                            <li><Link href="/sitemap.xml">Sitemap</Link></li>
                         </ul>
                         
                     </section>
 
                     <section>
                         <p>Mavi Taxi - &copy; Copyright - <span id="currentyear">.</span></p>
+                        <p>Website ontwikkeling door <Link href="https://altinweb.nl/">Altinweb <img src="https://altinweb.nl/_next/static/media/altinweb-logo.dda733f0.svg" alt="Logo van Altinweb"/></Link></p>
                     </section>
                 </div>
             </footer>
