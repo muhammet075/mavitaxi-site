@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/hero.module.css";
-import Vito from "../assets/vito.png";
+import taxiauto from "../assets/taxiauto.png";
 import phoneIco from "../assets/icons/phone.svg";
 
 import vitoIco from "../assets/icons/vito.svg";
@@ -35,7 +35,7 @@ function Hero() {
             <div>
                 <div>
                     <section>
-                        <Image src={Vito} alt="Mercedes Benz Vito Taxi"/>
+                        <Image src={taxiauto} alt="Taxi auto van Mavi Taxi"/>
                     </section>
                     <section>
                         <div>
