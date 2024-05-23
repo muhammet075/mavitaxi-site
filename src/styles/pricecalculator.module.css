@@ -24,6 +24,14 @@
     margin-bottom: 20px; 
     font-size: 1.8em;   
     font-weight: 400;
+    text-align: center;
+}
+
+.pricecalculator > div section:nth-of-type(1) h2{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: inherit;
+    margin-bottom: 0;
 }
 
 .pricecalculator > div section p{
@@ -33,15 +41,18 @@
 .pricecalculator > div section a{
     margin-top: 30px;
     display: block;
-    background: linear-gradient(to right, #b17c0b, #ddc060, #ddc05f, #ddc060, #b17c0b);
+    position: relative;
+    background: #ffd300;
     color: #000;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 17px;
     text-align: center;
-    width: 280px;    
-    border-radius: 5px;
+    width: 250px;
+    border-radius: 25px;
     padding: 15px 0;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    cursor: pointer;
 }
 
 
@@ -52,7 +63,7 @@
 }
 
 .pricecalculator > div section:nth-of-type(2){
-    background-color: #2a2a2a;
+    background-color: #25a3db;
     color: #ffff;
     display: flex;
     flex-direction: column;
@@ -73,11 +84,13 @@
 
 .pricecalculator > div section:nth-of-type(2) input[type=number]{
     background-color: #fdfdfd;
-    font-size: 1.5em;
-    padding: 5px;
-    border: 2px solid #ceb061;
-    border-radius: 5px;
-    width: 80%;
+    font-size: 17px;
+    padding: 15px 0;
+    border: 2px solid #000;
+    border-radius: 25px;
+    width: 100%;
+    text-align: center;
+    display: block;
 }
 
 .pricecalculator > div section:nth-of-type(2) div{
@@ -89,14 +102,18 @@
 }
 
 .pricecalculator > div section:nth-of-type(2) div p:first-child{
-    font-size: 0.8em;
+    font-size: 12px;
     padding: 0 20px;
     margin-bottom: 5px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .pricecalculator > div section:nth-of-type(2) div p:last-child{
     font-size: 2.5em;
     padding: 0 20px;
+    text-align: center;
 }
 
 

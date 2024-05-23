@@ -1,38 +1,40 @@
-.afspraak{
-    background: -webkit-linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
-    width: 100%;
-    color: #ffff;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding-top: 50px;
-}
-
 .afspraak h1{
-    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: 500;
+    margin-top: 200px;
+    margin-bottom: 25px;
 }
 
 .afspraak > div{
-    max-width: 1250px;
+    max-width: 1200px;
     margin: auto;
 }
 
+.afspraak > div p{
+    max-width: 600px;
+}
+
+
 .afspraak h2{
-    font-size: 1em;
+    font-size: 13px;
     text-transform: uppercase;
-    font-weight: 400;
-    margin-bottom: 5px;
+    margin: 0 0 1px 13px;
+    font-weight: 700;
 }
 
 .afspraak input[type=text], .afspraak input[type=date], .afspraak select{
     padding: 10px;
     width: 550px;
-    border-radius: 4px;
-    border: 2px solid #ba9037;
     margin-right: 50px;
-    font-family: system-ui, -apple-system;
     -webkit-appearance: none;
     position: relative;
     color: #000;
     cursor: pointer;
+    background-color: #fdfdfd;
+    font-size: 14px;
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 25px;
 }
 
 .afspraak input[type=text]::placeholder{
@@ -62,10 +64,6 @@
 
 .afspraak > div:nth-of-type(1) section:nth-of-type(2){
     padding-bottom: 75px;
-    border-top: 0;
-    border-bottom: 2px;
-    border-style: solid;
-    border-image: linear-gradient( to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C ) 100% 0 100% 0;
 }
 
 .afspraak > div > section:nth-of-type(2) section{
@@ -92,6 +90,7 @@
     font-size: 0.8em;
     font-weight: 300;
     width: 150px;
+    display: none;
 }
 
 
@@ -118,11 +117,19 @@
     width: 200px;
     height: 230px;
     padding: 10px;
-    background: #373737;
-    border-bottom: 2px;
-    border-style: solid;
-    border-image: linear-gradient( to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C ) 100% 0 100% 0;
+    background: #25a3db;
+    border: 2px solid #000;
+    color: #ffff;
 }
+
+.afspraak > div:nth-of-type(2) div section:nth-of-type(2){
+    display: none;
+}
+
+.afspraak > div:nth-of-type(2) div section:nth-of-type(3){
+    display: none;
+}
+
 
 .afspraak > div:nth-of-type(2) div section img{
     width: auto;
@@ -146,25 +153,26 @@
     margin-top: 12px;
     font-size: 1.3em;
     font-weight: 400;
-    color: #119de4 ;
+    color: #ffff ;
 }
 
 
 .afspraak > div:nth-of-type(2) div section button{
-    position: absolute;
     bottom: -50px;
-    width: 60%;
+    width: 75%;
     left: 0;
     right: 0;
     margin: auto;
-    background: #0077b4;
-    color: #ffff;
     border: none;
-    padding: 9px;
-    border-radius: 3px;
+    padding: 12px;
+    border-radius: 25px;
     cursor: pointer;
-    font-weight: 400;
-    font-family: system-ui, -apple-system;
+    position: relative;
+    background: #ffd300;
+    color: #000;
+    font-weight: 600;
+    font-family: "Poppins";
+    font-size: 14px;
 }
 
 .afspraak > div:nth-of-type(2) div section button:hover{
@@ -236,8 +244,8 @@
 
 @media only screen and (max-width: 520px) {
     .afspraak > div:nth-of-type(2) div section{
-        width: 30%;
-        height: 190px;
+        width: 100%;
+        height: auto;
         padding: 15px 0;
     }
 

@@ -26,8 +26,8 @@ function Hero() {
             <div>
                 <div>
                     <section>
-                            <h1 id="herotitel">Boek nu je taxi</h1>
-                            <span><Image src={phoneIco} alt="Telefoon icoontje"/><h2>06 14 62 20 99</h2></span>
+                            <h1 id="herotitel">Taxi nodig?</h1>
+                            <span><Image src={phoneIco} alt="Telefoon icoontje"/><h2>06 18 36 56 89</h2></span>
                             <Link href="/afspraak" data-aos="fade-right"><span id="herobtn">Afspraak</span> <Image src={arrowIco} alt="Pijl icoontje"/></Link>
                     </section>
                 </div>

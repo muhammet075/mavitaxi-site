@@ -1,5 +1,5 @@
 .header{
-    background-color: #000;
+    background-color: #010101;
     margin-bottom: 25px;
     position: fixed;
     z-index: 99999;
@@ -14,13 +14,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 0;
+    padding: 10px 0;
 }
 
 .header > div:nth-of-type(1) > div img{
-    background-color: white;
-    width: 200px;
+    width: 140px;
     height: auto;
+    position: absolute;
+    top: 2px;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.header > div:nth-of-type(1) > div img:hover {
+    animation: rotate360 1s linear infinite;
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .header > div:nth-of-type(1) > div section{
@@ -41,6 +57,7 @@
 }
 
 .header > div:nth-of-type(1) > div section a span{
+    font-weight: 400;
     display: flex;
     align-items: center;
 }
@@ -50,11 +67,16 @@
     height: auto;
     background: none;
     margin-right: 5px;
+    position: relative;
+}
+
+.header > div:nth-of-type(1) > div section a span p{
+    margin-top: 2px;
 }
 
 .header > div:nth-of-type(2){
     height: 35px;
-    background: linear-gradient(to right, #b17c0b, #ddc060, #ddc05f, #ddc060, #b17c0b);
+    background: #25a3db;
 }
 
 .header > div:nth-of-type(2) > nav{
@@ -69,8 +91,9 @@
 }
 
 .header > div:nth-of-type(2) > nav section ul{
-    width: 550px;
+    width: 450px;
     height: 100%;
+    margin-left: 200px;
     display: flex;
     justify-content: space-between;
     list-style: none; 
@@ -85,7 +108,7 @@
 }
 
 .header > div:nth-of-type(2) > nav section ul li a:hover{
-    color: #a87200;
+    color: #ffff;
     transition: 0.3s;
 }
 
@@ -106,6 +129,7 @@
     width: 60px;
     border-radius: 10px;
     padding-right: 20px;
+    display: none;
 } 
 
 .header > div:nth-of-type(2) > nav > button:nth-of-type(2):hover{
@@ -175,10 +199,6 @@
 }
 
 @media only screen and (max-width: 1215px) {
-    .header > div:nth-of-type(1) > div{
-        padding: 2rem 15px;
-    }
-
     .header > div:nth-of-type(2) > nav{
         padding: 0 15px;
     }
@@ -188,17 +208,26 @@
     }
 }
 
-@media only screen and (max-width: 725px) {
+
+
+@media only screen and (max-width: 900px) {
     .header > div:nth-of-type(1) > div{
-        justify-content: center;
+        padding: 0;
     }
 
     .header > div:nth-of-type(1) > div section{
         display: none;
-    }
-}
+    }    
 
-@media only screen and (max-width: 660px) {
+    .header > div:nth-of-type(1) > div img {
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 63px;
+        height: 125px;
+        width: auto;
+    }
+
     .header > div:nth-of-type(2){
         height: 45px;
     }
@@ -233,7 +262,7 @@
         flex-direction: column;
         background-color: #000;
         color: #ffff;
-        z-index: 999;
+        z-index: 999999;
         top: 0;
         left: 2000px;
         width: 100%;
@@ -250,7 +279,8 @@
         align-items: flex-start;
         height: 300px;
         text-align: initial;
-        padding: 4rem 0 0 3rem;        
+        padding: 4rem 0 0 3rem;  
+        margin: 0;      
     }
 
 }

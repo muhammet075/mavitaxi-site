@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Translate } from "../components/translate";
 import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
@@ -40,8 +39,6 @@ export default function Afspraak() {
         resultul.classList.add("displaynone");
       });
     }
-
-    Translate();
   });
 
   function calculatePrice() {
@@ -128,7 +125,7 @@ export default function Afspraak() {
       ":" +
       minuten +
       "%20";
-    window.location = "https://wa.me/?phone=31614622099&text=" + message;
+    window.location = "https://wa.me/?phone=31618365689&text=" + message;
   }
 
   function busafspraak() {
@@ -151,7 +148,7 @@ export default function Afspraak() {
       ":" +
       minuten +
       "%20";
-    window.location = "https://wa.me/?phone=31614622099&text=" + message;
+    window.location = "https://wa.me/?phone=31618365689&text=" + message;
   }
 
   function luxeafspraak() {
@@ -174,25 +171,32 @@ export default function Afspraak() {
       ":" +
       minuten +
       "%20";
-    window.location = "https://wa.me/?phone=31614622099&text=" + message;
+    window.location = "https://wa.me/?phone=31618365689&text=" + message;
   }
 
   return (
     <>
       <Head>
-        <title>Taxi T.C. - Afspraak</title>
+        <title>Afspraak maken - Mavi Taxi</title>
+        <meta name="format-detection" content="telephone=no"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no"/>
+        <meta name="description" content="Maak eenvoudig een afspraak voor luxe en comfortabel vervoer met Mavi Taxi. Vul het formulier in op onze website om uw rit te plannen."/>
+        <meta name="keywords" content="Mavi Taxi, afspraak maken"/>
+        <meta name="og:description" content="Maak eenvoudig een afspraak voor luxe en comfortabel vervoer met Mavi Taxi. Vul het formulier in op onze website om uw rit te plannen."/>
+        <meta property="og:url" content="https://www.mavitaxi.nl/afspraak-maken"/>
+        <meta property="og:image" content="/logo.png" />
+        <meta property="og:title" content="Afspraak maken - Mavi Taxi"/>
       </Head>
 
       <div className={styles.afspraak}>
         <div>
-          <div>
-            <h1 id='afspraaktitle'>Afspraak</h1>
+
+        <h1 id='afspraaktitle'>Afspraak</h1>
             <p id='afspraaktext1'>
-              Maak een afspraak door de formulier hier beneden in te vullen. Na
-              dat u de afspraak bevesitgt heeft worden de exacte ophaal en
-              aflever adressen bij u gevraagd. De minimale prijs van een rit is
-              altijd €25,-
+            Maak alstublieft een afspraak door het onderstaande formulier in te vullen. Zodra u de afspraak heeft bevestigd, zullen wij u vragen om de exacte ophaal- en afleveradressen. Houd er rekening mee dat de minimumprijs voor een rit altijd €25 bedraagt.
             </p>
+
+          <div>
           </div>
 
           <section>
@@ -304,24 +308,15 @@ export default function Afspraak() {
 
         <div>
           <p id='afspraaktext2'>
-            De prijzen hieronder zijn schattingen van de rit. De prijs kan met
-            enkele euro's oplopen of aflopen. Dat hangt af van de ophaalstraat
-            en afleverstraat.
+            Hieronder vindt u schattingen van de ritprijzen. Houd er rekening mee dat de uiteindelijke prijs enkele euro's hoger of lager kunnen uitvallen, afhankelijk van de specifieke ophaal- en afleverlocaties.
           </p>
-          <p id='afspraaktext3'>
-            Om uw afspraak te bevestigen kiest u uw gewenste soort auto en zal
-            doorverwezen worden naar WhatsApp. Na dat uw bericht succesvol
-            verstuurd is, krijgt u een Tikkie als aanbetaling van de helft van
-            de prijs wat hier onder per auto is opgenoemd. Dan is uw afspraak
-            met succes geregistreerd en stuurt u uw ophaal- en aflever adres
-            door.
-          </p>
+      
 
           <div>
             <section>
               <Image src={autopng} alt='Normaal Auto' />
               <h2 id='afspraakauto1'>Normale Auto</h2>
-              <p>(E-Klasse)</p>
+              <p></p>
               <p id='prijs1'>Prijs:</p>
               <p>
                 &euro; <span className='normaleprijs'>0.00</span>

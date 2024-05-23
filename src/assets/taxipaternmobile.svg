@@ -98,7 +98,7 @@
         fill: url(#linear-gradient-24);
       }
     </style>
-    <linearGradient id="linear-gradient" x1="102" y1="4420.89" x2="204" y2="4420.89" gradientTransform="translate(0 4471.89) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="102" y1="4420.89" x2="204" y2="4420.89" gradientTransform="(0 4471.89) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#eece5c"/>
       <stop offset=".02" stop-color="#e9c858"/>
       <stop offset=".1" stop-color="#d0a944"/>
