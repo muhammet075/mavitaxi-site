@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/footer.module.css";
 import WhatsAppIco from "../assets/icons/whatsapp.svg";
+import InstaIco from "../assets/icons/instagram.svg";
 import mailIco from "../assets/icons/mail.svg";
 import phoneIco from "../assets/icons/phone.svg";
 import vito1 from "../assets/vitoecht.png";
@@ -32,9 +33,10 @@ export default function Foter() {
                         <ul>
                             <li><h2>Mavi Taxi</h2></li>
                             <li>KVK: 89979214</li>
-                            <li><Link href="https://wa.me/?phone=31618365689"><Image src={phoneIco} alt="Telefoon Icon"/> 0618365689</Link></li>
-                            <li><Link href="mailto:taxi-tc@hotmail.com"><Image src={mailIco} alt="Mail Icon"/> info@mavitaxi.nl</Link></li>
-                            <li><Link href="https://wa.me/?phone=31618365689"><Image src={WhatsAppIco} alt="WhatsApp Icon"/> WhatsApp</Link></li>
+                            <li><Link href="https://wa.me/?phone=31618365689"><Image src={phoneIco} alt="Telefoon Icoon"/> 0618365689</Link></li>
+                            <li><Link href="mailto:info@mavitaxi.nl"><Image src={mailIco} alt="Mail Icoon"/> info@mavitaxi.nl</Link></li>
+                            <li><Link href="https://wa.me/?phone=31618365689"><Image src={WhatsAppIco} alt="WhatsApp Icoon"/> WhatsApp</Link></li>
+                            <li><Link href="https://www.instagram.com/mavi.taxi" target="_blank"><Image src={InstaIco} alt="Instagram Icoon"/> Instagram</Link></li>
                         </ul>
 
                         <ul>

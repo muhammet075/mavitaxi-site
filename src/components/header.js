@@ -8,6 +8,7 @@ import PhoneIco from "../assets/icons/phone.svg";
 import hamburgerIco from "../assets/icons/hamburger.svg";
 import closeIco from "../assets/icons/close.svg";
 import WhatsAppIco from "../assets/icons/whatsapp.svg";
+import InstaIco from "../assets/icons/instagram.svg";
 import sessionstorage from "sessionstorage";
 
 function Header() {
@@ -67,9 +68,10 @@ function Header() {
                 <div>
                     <Link href="/"><Image src={Logo} alt="Logo van Mavi Taxi"/></Link>
                     <section>
-                        <Link href="mailto:taxi-tc@hotmail.com"><span><Image src={MailIco} alt="Mail icoontje"/><p>info@mavitaxi.nl</p></span></Link>
+                        <Link href="mailto:info@mavitaxi.nl"><span><Image src={MailIco} alt="Mail icoontje"/><p>info@mavitaxi.nl</p></span></Link>
                         <Link href="https://wa.me/?phone=31618365689"><span><Image src={PhoneIco} alt="Telefoon icoontje"/><p>0618365689</p></span></Link>
                         <Link href="https://wa.me/?phone=31618365689"><span><Image src={WhatsAppIco} alt="WhatsApp icoontje"/><p>WhatsApp</p></span></Link>
+                        <Link href="https://www.instagram.com/mavi.taxi" target="_blank"><span><Image src={InstaIco} alt="Instagram Icoon"/> <p>Instagram</p></span></Link>
                     </section>
                 </div>
             </div>

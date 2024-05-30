@@ -12,167 +12,167 @@ import vitopng from "../assets/vitopng.png";
 import arrowIco from "../assets/icons/arrow.png";
 
 export default function Afspraak() {
-  const [searchTerm, setSearchTerm] = useState("");
+  // const [searchTerm, setSearchTerm] = useState("");
 
-  let uren;
-  let minuten;
+  // let uren;
+  // let minuten;
 
-  function changetime() {
-    uren = document.querySelector(".ureninput").value;
-    minuten = document.querySelector(".minuteninput").value;
-  }
+  // function changetime() {
+  //   uren = document.querySelector(".ureninput").value;
+  //   minuten = document.querySelector(".minuteninput").value;
+  // }
 
-  useEffect(() => {
-    document.querySelector(".datepicker").valueAsDate = new Date();
+  // useEffect(() => {
+  //   document.querySelector(".datepicker").valueAsDate = new Date();
 
-    let resultPlaces = document.querySelectorAll(".resultlist");
-    let searchPlaceBar = document.querySelector(".searchinput");
-    const resultul = document.querySelector(".resultul");
+  //   let resultPlaces = document.querySelectorAll(".resultlist");
+  //   let searchPlaceBar = document.querySelector(".searchinput");
+  //   const resultul = document.querySelector(".resultul");
 
-    searchPlaceBar.addEventListener("click", () => {
-      resultul.classList.remove("displaynone");
-    });
+  //   searchPlaceBar.addEventListener("click", () => {
+  //     resultul.classList.remove("displaynone");
+  //   });
 
-    for (let i = 0; i < resultPlaces.length; i++) {
-      resultPlaces[i].addEventListener("click", () => {
-        searchPlaceBar.value = resultPlaces[i].innerHTML;
-        resultul.classList.add("displaynone");
-      });
-    }
-  });
+  //   for (let i = 0; i < resultPlaces.length; i++) {
+  //     resultPlaces[i].addEventListener("click", () => {
+  //       searchPlaceBar.value = resultPlaces[i].innerHTML;
+  //       resultul.classList.add("displaynone");
+  //     });
+  //   }
+  // });
 
-  function calculatePrice() {
-    let plaats1 = document.querySelector(".ophaalplaats").value;
-    let plaats2 = document.querySelector(".searchinput").value;
+  // function calculatePrice() {
+  //   let plaats1 = document.querySelector(".ophaalplaats").value;
+  //   let plaats2 = document.querySelector(".searchinput").value;
 
-    let plaatsnaam1;
-    let plaatsnaam2;
+  //   let plaatsnaam1;
+  //   let plaatsnaam2;
 
-    let plaatsNamenArray = [];
-    let plaatsenData = [plaatsen];
-    let totaalKm;
-    let newKm;
-    let helftKm;
+  //   let plaatsNamenArray = [];
+  //   let plaatsenData = [plaatsen];
+  //   let totaalKm;
+  //   let newKm;
+  //   let helftKm;
 
-    let normaalprijs;
-    let busprijs;
-    let luxeprijs;
+  //   let normaalprijs;
+  //   let busprijs;
+  //   let luxeprijs;
 
-    let zoekPlaats1;
-    let zoekPlaats2;
-    let plaats1optie = document.querySelector(".ophaalplaats").value;
+  //   let zoekPlaats1;
+  //   let zoekPlaats2;
+  //   let plaats1optie = document.querySelector(".ophaalplaats").value;
 
-    for (let i = 0; i < plaatsen.length; i++) {
-      plaatsNamenArray.push(plaatsen[i].city);
-    }
+  //   for (let i = 0; i < plaatsen.length; i++) {
+  //     plaatsNamenArray.push(plaatsen[i].city);
+  //   }
 
-    let plaats2optie = plaatsNamenArray.find(
-      (item) => item === document.querySelector(".searchinput").value
-    );
+  //   let plaats2optie = plaatsNamenArray.find(
+  //     (item) => item === document.querySelector(".searchinput").value
+  //   );
 
-    for (let i = 0; i < plaatsenData.length; i++) {
-      plaatsnaam1 = plaatsenData[i].find((item) => item.city === plaats1optie);
-      plaatsnaam2 = plaatsenData[i].find((item) => item.city === plaats2optie);
-    }
+  //   for (let i = 0; i < plaatsenData.length; i++) {
+  //     plaatsnaam1 = plaatsenData[i].find((item) => item.city === plaats1optie);
+  //     plaatsnaam2 = plaatsenData[i].find((item) => item.city === plaats2optie);
+  //   }
 
-    try {
-      zoekPlaats1 = { lat: plaatsnaam1.lat, long: plaatsnaam1.lng };
-      zoekPlaats2 = { lat: plaatsnaam2.lat, long: plaatsnaam2.lng };
+  //   try {
+  //     zoekPlaats1 = { lat: plaatsnaam1.lat, long: plaatsnaam1.lng };
+  //     zoekPlaats2 = { lat: plaatsnaam2.lat, long: plaatsnaam2.lng };
 
-      totaalKm = DistanceCalculator.calculate(zoekPlaats1, zoekPlaats2, "km");
+  //     totaalKm = DistanceCalculator.calculate(zoekPlaats1, zoekPlaats2, "km");
 
-      helftKm = totaalKm / 3;
-      newKm = totaalKm + helftKm;
-    } catch (e) {}
+  //     helftKm = totaalKm / 3;
+  //     newKm = totaalKm + helftKm;
+  //   } catch (e) {}
 
-    console.log(plaats1 + " " + plaats2 + " " + newKm);
+  //   console.log(plaats1 + " " + plaats2 + " " + newKm);
 
-    normaalprijs = newKm * 3.11;
-    busprijs = newKm * 3.46;
-    luxeprijs = newKm * 3.46;
+  //   normaalprijs = newKm * 3.11;
+  //   busprijs = newKm * 3.46;
+  //   luxeprijs = newKm * 3.46;
 
-    if (plaats1.length > 1 && plaats2.length > 1) {
-      document.querySelector(".normaleprijs").innerHTML =
-        normaalprijs.toFixed(2);
-      document.querySelector(".busprijs").innerHTML = busprijs.toFixed(2);
-      document.querySelector(".luxeprijs").innerHTML = luxeprijs.toFixed(2);
+  //   if (plaats1.length > 1 && plaats2.length > 1) {
+  //     document.querySelector(".normaleprijs").innerHTML =
+  //       normaalprijs.toFixed(2);
+  //     document.querySelector(".busprijs").innerHTML = busprijs.toFixed(2);
+  //     document.querySelector(".luxeprijs").innerHTML = luxeprijs.toFixed(2);
 
-      document
-        .querySelector(".normaleafspraak")
-        .classList.remove("displaynone");
-      document.querySelector(".busafspraak").classList.remove("displaynone");
-      document.querySelector(".luxeafspraak").classList.remove("displaynone");
-    }
-  }
+  //     document
+  //       .querySelector(".normaleafspraak")
+  //       .classList.remove("displaynone");
+  //     document.querySelector(".busafspraak").classList.remove("displaynone");
+  //     document.querySelector(".luxeafspraak").classList.remove("displaynone");
+  //   }
+  // }
 
-  function normaleafspraak() {
-    let message =
-      "NIEUWE AFSPRAAK VOOR NORMALE AUTO%0a" +
-      "Prijs:%20€" +
-      document.querySelector(".normaleprijs").innerHTML +
-      "%0a" +
-      "Van:%20" +
-      document.querySelector(".ophaalplaats").value +
-      "%0a" +
-      "Naar:%20" +
-      document.querySelector(".searchinput").value +
-      "%0a" +
-      "Datum:%20" +
-      document.querySelector(".datepicker").value +
-      "%0a" +
-      "Tijd:%20" +
-      uren +
-      ":" +
-      minuten +
-      "%20";
-    window.location = "https://wa.me/?phone=31618365689&text=" + message;
-  }
+  // function normaleafspraak() {
+  //   let message =
+  //     "NIEUWE AFSPRAAK VOOR NORMALE AUTO%0a" +
+  //     "Prijs:%20€" +
+  //     document.querySelector(".normaleprijs").innerHTML +
+  //     "%0a" +
+  //     "Van:%20" +
+  //     document.querySelector(".ophaalplaats").value +
+  //     "%0a" +
+  //     "Naar:%20" +
+  //     document.querySelector(".searchinput").value +
+  //     "%0a" +
+  //     "Datum:%20" +
+  //     document.querySelector(".datepicker").value +
+  //     "%0a" +
+  //     "Tijd:%20" +
+  //     uren +
+  //     ":" +
+  //     minuten +
+  //     "%20";
+  //   window.location = "https://wa.me/?phone=31618365689&text=" + message;
+  // }
 
-  function busafspraak() {
-    let message =
-      "NIEUWE AFSPRAAK VOOR BUS/VAN%0a" +
-      "Prijs:%20€" +
-      document.querySelector(".busprijs").innerHTML +
-      "%0a" +
-      "Van:%20" +
-      document.querySelector(".ophaalplaats").value +
-      "%0a" +
-      "Naar:%20" +
-      document.querySelector(".searchinput").value +
-      "%0a" +
-      "Datum:%20" +
-      document.querySelector(".datepicker").value +
-      "%0a" +
-      "Tijd:%20" +
-      uren +
-      ":" +
-      minuten +
-      "%20";
-    window.location = "https://wa.me/?phone=31618365689&text=" + message;
-  }
+  // function busafspraak() {
+  //   let message =
+  //     "NIEUWE AFSPRAAK VOOR BUS/VAN%0a" +
+  //     "Prijs:%20€" +
+  //     document.querySelector(".busprijs").innerHTML +
+  //     "%0a" +
+  //     "Van:%20" +
+  //     document.querySelector(".ophaalplaats").value +
+  //     "%0a" +
+  //     "Naar:%20" +
+  //     document.querySelector(".searchinput").value +
+  //     "%0a" +
+  //     "Datum:%20" +
+  //     document.querySelector(".datepicker").value +
+  //     "%0a" +
+  //     "Tijd:%20" +
+  //     uren +
+  //     ":" +
+  //     minuten +
+  //     "%20";
+  //   window.location = "https://wa.me/?phone=31618365689&text=" + message;
+  // }
 
-  function luxeafspraak() {
-    let message =
-      "NIEUWE AFSPRAAK VOOR LUXE AUTO%0a" +
-      "Prijs:%20€" +
-      document.querySelector(".luxeprijs").innerHTML +
-      "%0a" +
-      "Van:%20" +
-      document.querySelector(".ophaalplaats").value +
-      "%0a" +
-      "Naar:%20" +
-      document.querySelector(".searchinput").value +
-      "%0a" +
-      "Datum:%20" +
-      document.querySelector(".datepicker").value +
-      "%0a" +
-      "Tijd:%20" +
-      uren +
-      ":" +
-      minuten +
-      "%20";
-    window.location = "https://wa.me/?phone=31618365689&text=" + message;
-  }
+  // function luxeafspraak() {
+  //   let message =
+  //     "NIEUWE AFSPRAAK VOOR LUXE AUTO%0a" +
+  //     "Prijs:%20€" +
+  //     document.querySelector(".luxeprijs").innerHTML +
+  //     "%0a" +
+  //     "Van:%20" +
+  //     document.querySelector(".ophaalplaats").value +
+  //     "%0a" +
+  //     "Naar:%20" +
+  //     document.querySelector(".searchinput").value +
+  //     "%0a" +
+  //     "Datum:%20" +
+  //     document.querySelector(".datepicker").value +
+  //     "%0a" +
+  //     "Tijd:%20" +
+  //     uren +
+  //     ":" +
+  //     minuten +
+  //     "%20";
+  //   window.location = "https://wa.me/?phone=31618365689&text=" + message;
+  // }
 
   return (
     <>
@@ -191,6 +191,10 @@ export default function Afspraak() {
       <div className={styles.afspraak}>
         <div>
 
+        <h1 id='afspraaktitle'>Afspraak</h1>
+        <p>Wordt aan gewerkt...</p>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+{/* 
         <h1 id='afspraaktitle'>Afspraak</h1>
             <p id='afspraaktext1'>
             Maak alstublieft een afspraak door het onderstaande formulier in te vullen. Zodra u de afspraak heeft bevestigd, zullen wij u vragen om de exacte ophaal- en afleveradressen. Houd er rekening mee dat de minimumprijs voor een rit altijd €25 bedraagt.
@@ -364,7 +368,7 @@ export default function Afspraak() {
               </button>
             </section>
           </div>
-          <Image src={betaalmethodes} alt='Betaalmethodes' />
+          <Image src={betaalmethodes} alt='Betaalmethodes' /> */}
         </div>
       </div>
     </>

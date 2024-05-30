@@ -23,8 +23,9 @@ export default function Overons() {
 
             <div className="container">
                 <h1 id="overonstext">Over ons</h1>
-
-                <h2>Mavi Taxi - Uw Betrouwbare Taxidienst</h2>
+                <p>Wordt aan gewerkt...</p>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                {/* <h2>Mavi Taxi - Uw Betrouwbare Taxidienst</h2>
                 <p>Mavi Taxi is een dynamisch, professioneel en betrouwbaar taxibedrijf dat zich voornamelijk richt op klanten in Amsterdam en de omliggende gebieden. Wij bieden onze diensten aan in diverse steden en dorpen, waaronder Zaandam, Amstelveen, Hoofddorp, Haarlem en vele andere locaties. Ons doel is om u een hoogwaardige en zorgeloze reiservaring te bieden, ongeacht uw bestemming.</p>
 
                 <h2>Onze Vergunning en Veiligheid</h2>
@@ -45,7 +46,7 @@ export default function Overons() {
                 <p>Om de prijs calculator te gebruiken, bezoekt u eenvoudigweg de prijzenpagina op onze website door in het menu op "Prijzen" te klikken. Voer de benodigde gegevens in en u krijgt direct een indicatie van de kosten. Deze tool is ontworpen om u te helpen bij het plannen en budgetteren van uw reis, zodat u niet voor verrassingen komt te staan.</p>
 
                 <h2>Onze Diensten</h2>
-                <p>Bij Mavi Taxi streven we ernaar om onze klanten de best mogelijke service te bieden. Of u nu een rit naar het vliegveld nodig heeft, een zakelijke afspraak heeft of gewoon een avondje uit plant, wij staan voor u klaar. Aarzel niet om contact met ons op te nemen als u verdere vragen heeft of aanvullende informatie wenst. Uw tevredenheid is onze hoogste prioriteit, en we kijken ernaar uit om u van dienst te mogen zijn.</p>
+                <p>Bij Mavi Taxi streven we ernaar om onze klanten de best mogelijke service te bieden. Of u nu een rit naar het vliegveld nodig heeft, een zakelijke afspraak heeft of gewoon een avondje uit plant, wij staan voor u klaar. Aarzel niet om contact met ons op te nemen als u verdere vragen heeft of aanvullende informatie wenst. Uw tevredenheid is onze hoogste prioriteit, en we kijken ernaar uit om u van dienst te mogen zijn.</p> */}
 
             </div>
         </>

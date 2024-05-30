@@ -22,7 +22,7 @@ export default function Prijzen() {
 
       <div className='container'>
         <h1 id='prijstext'>Prijzen bij Mavi Taxi</h1>
-        <p id='prijscontent'>Voor meer informatie over onze prijzen kunt u ons telefonisch bereiken op: 0618365689. Onze klantenservice staat klaar om al uw vragen te beantwoorden en u te voorzien van de benodigde details. Daarnaast bieden wij u de mogelijkheid om een schatting van het totale bedrag van uw rit te krijgen door gebruik te maken van onze handige prijs calculator hieronder. Voer eenvoudigweg de benodigde gegevens in en u krijgt direct een indicatie van de kosten. Deze tool is ontworpen om u te helpen bij het plannen van uw reis en het beheren van uw budget. Aarzel niet om contact met ons op te nemen als u verdere assistentie nodig heeft.</p>
+        {/* <p id='prijscontent'>Voor meer informatie over onze prijzen kunt u ons telefonisch bereiken op: 0618365689. Onze klantenservice staat klaar om al uw vragen te beantwoorden en u te voorzien van de benodigde details. Daarnaast bieden wij u de mogelijkheid om een schatting van het totale bedrag van uw rit te krijgen door gebruik te maken van onze handige prijs calculator hieronder. Voer eenvoudigweg de benodigde gegevens in en u krijgt direct een indicatie van de kosten. Deze tool is ontworpen om u te helpen bij het plannen van uw reis en het beheren van uw budget. Aarzel niet om contact met ons op te nemen als u verdere assistentie nodig heeft.</p> */}
         <br/><br/>
       </div>
       <PriceCalculator />
