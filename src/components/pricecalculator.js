@@ -31,7 +31,7 @@ function PriceCalculator() {
                     <p>Wordt aan gewerkt...</p>
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                     {/* <p>Mavi Taxi is voornamelijk actief in Amsterdam, de Zaanstreek en de omliggende gebieden, waar we bekend staan om onze betrouwbare en comfortabele vervoersdiensten. Onze nette en goed onderhouden voertuigen zorgen ervoor dat uw reis altijd aangenaam verloopt.</p> 
-                    <p>Of u nu direct opgehaald wilt worden of een rit voor een later tijdstip wilt plannen, bij ons bent u aan het juiste adres. U kunt ons bereiken door te bellen naar 0618365689 of door een afspraak te maken via de knop hieronder.</p> 
+                    <p>Of u nu direct opgehaald wilt worden of een rit voor een later tijdstip wilt plannen, bij ons bent u aan het juiste adres. U kunt ons bereiken door te bellen naar Binnenkort of door een afspraak te maken via de knop hieronder.</p> 
                     <p>Voor uw gemak bieden we ook een handige ritcalculator aan waarmee u een schatting van de ritprijs kunt berekenen. Houd er rekening mee dat deze prijs een schatting is en de uiteindelijke kosten kunnen variëren afhankelijk van verschillende factoren.</p> */}
                     <Link href="/afspraak">Afspraak maken</Link>
                 </section>

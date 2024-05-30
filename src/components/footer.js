@@ -21,7 +21,7 @@ export default function Foter() {
 
     return (
         <>
-            <span id="whatsappbtn"><Link href="https://wa.me/?phone=31618365689"><Image src={WhatsAppIco} alt="Whatsapp Logo"/></Link></span>
+            <span id="whatsappbtn"><Link href="https://wa.me/?phone="><Image src={WhatsAppIco} alt="Whatsapp Logo"/></Link></span>
             <footer className={styles.footer}>  
                 <span></span>
                 <div>
@@ -33,9 +33,9 @@ export default function Foter() {
                         <ul>
                             <li><h2>Mavi Taxi</h2></li>
                             <li>KVK: 89979214</li>
-                            <li><Link href="https://wa.me/?phone=31618365689"><Image src={phoneIco} alt="Telefoon Icoon"/> 0618365689</Link></li>
+                            <li><Link href="https://wa.me/?phone="><Image src={phoneIco} alt="Telefoon Icoon"/> Binnenkort</Link></li>
                             <li><Link href="mailto:info@mavitaxi.nl"><Image src={mailIco} alt="Mail Icoon"/> info@mavitaxi.nl</Link></li>
-                            <li><Link href="https://wa.me/?phone=31618365689"><Image src={WhatsAppIco} alt="WhatsApp Icoon"/> WhatsApp</Link></li>
+                            <li><Link href="https://wa.me/?phone="><Image src={WhatsAppIco} alt="WhatsApp Icoon"/> WhatsApp</Link></li>
                             <li><Link href="https://www.instagram.com/mavi.taxi" target="_blank"><Image src={InstaIco} alt="Instagram Icoon"/> Instagram</Link></li>
                         </ul>
 

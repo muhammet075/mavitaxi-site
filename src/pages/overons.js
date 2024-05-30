@@ -40,7 +40,7 @@ export default function Overons() {
                     - Modern en goed onderhouden voertuigen</p>
 
                 <h2>Contact en Informatie</h2>
-                <p>Voor meer informatie over onze diensten en prijzen kunt u ons altijd telefonisch bereiken op: 0618365689. Onze klantenservice staat klaar om al uw vragen te beantwoorden en u te voorzien van de nodige informatie. We begrijpen dat transparantie en duidelijkheid belangrijk zijn, daarom bieden wij ook een gebruiksvriendelijke prijs calculator aan op onze website.</p>
+                <p>Voor meer informatie over onze diensten en prijzen kunt u ons altijd telefonisch bereiken op: Binnenkort. Onze klantenservice staat klaar om al uw vragen te beantwoorden en u te voorzien van de nodige informatie. We begrijpen dat transparantie en duidelijkheid belangrijk zijn, daarom bieden wij ook een gebruiksvriendelijke prijs calculator aan op onze website.</p>
 
                 <h2>Gebruik Onze Prijs Calculator</h2>
                 <p>Om de prijs calculator te gebruiken, bezoekt u eenvoudigweg de prijzenpagina op onze website door in het menu op "Prijzen" te klikken. Voer de benodigde gegevens in en u krijgt direct een indicatie van de kosten. Deze tool is ontworpen om u te helpen bij het plannen en budgetteren van uw reis, zodat u niet voor verrassingen komt te staan.</p>

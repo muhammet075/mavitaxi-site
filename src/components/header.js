@@ -69,8 +69,8 @@ function Header() {
                     <Link href="/"><Image src={Logo} alt="Logo van Mavi Taxi"/></Link>
                     <section>
                         <Link href="mailto:info@mavitaxi.nl"><span><Image src={MailIco} alt="Mail icoontje"/><p>info@mavitaxi.nl</p></span></Link>
-                        <Link href="https://wa.me/?phone=31618365689"><span><Image src={PhoneIco} alt="Telefoon icoontje"/><p>0618365689</p></span></Link>
-                        <Link href="https://wa.me/?phone=31618365689"><span><Image src={WhatsAppIco} alt="WhatsApp icoontje"/><p>WhatsApp</p></span></Link>
+                        <Link href="https://wa.me/?phone=0"><span><Image src={PhoneIco} alt="Telefoon icoontje"/><p>Binnenkort</p></span></Link>
+                        <Link href="https://wa.me/?phone=0"><span><Image src={WhatsAppIco} alt="WhatsApp icoontje"/><p>WhatsApp</p></span></Link>
                         <Link href="https://www.instagram.com/mavi.taxi" target="_blank"><span><Image src={InstaIco} alt="Instagram Icoon"/> <p>Instagram</p></span></Link>
                     </section>
                 </div>
